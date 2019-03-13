@@ -42,7 +42,7 @@ There were 4 major points that were tested.
     
 * ## New Feed Selection test
 
-This test has one stage:
+    This test has one stage:
     * **When a new feed is loaded, the content actually changes** - this test checks to see that when a new feed is loaded
     by the loadFeed function that the content actually changes.
 
