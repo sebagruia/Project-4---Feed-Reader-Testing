@@ -1,6 +1,6 @@
 # Feed Reader Testing
-
-This project was created to test the Feed Reader App functionality, using Jasmine testing framework.
+This project was created to test the Feed Reader App correct functionality, using Jasmine testing framework.
+The file jasmine/spec/feedreader.js contains all the suite tests that check the functionality of the application.
 There were 4 major points that were tested.
 
 # Instalation

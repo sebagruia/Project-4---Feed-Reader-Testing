@@ -115,15 +115,16 @@ $(function () {
 
             loadFeed(0, function () {
                 firstUrl = allFeeds[0].url;
-                done();
+                    loadFeed(1, function () {
+                        secondUrl = allFeeds[1].url;
+                        done();
+
+            });
+            
 
             });
 
-            loadFeed(1, function () {
-                secondUrl = allFeeds[1].url;
-                done();
-
-            });
+            
         });
 
         it('When a new feed is loaded, the content actually changes', function (done) {
