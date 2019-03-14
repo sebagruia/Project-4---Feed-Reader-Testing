@@ -3,6 +3,9 @@
 This project was created to test the Feed Reader App functionality, using Jasmine testing framework.
 There were 4 major points that were tested.
 
+# Instalation
+* Download the zip file or clone the project from GitHub repository to your PC.
+* Load the index.html file.
 
 # Content
 
